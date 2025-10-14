@@ -92,9 +92,15 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 
 # ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF' 
+# alias ll='ls -alF'
+# alias la='ls -A'
+# alias l='ls -CF' 
+
+# eza aliases 
+alias eza='eza --icons' # Set nice defaults for eza
+alias ll='eza -lha'     # Long listing, human-readable, almost all
+alias la='eza -a'       # Almost all files, excluding . and ..
+alias l='eza -F'        # Column format, classify (good for quick check)
 
 # cat aliases
 alias cat="batcat"
