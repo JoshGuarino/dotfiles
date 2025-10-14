@@ -91,6 +91,9 @@ fi
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 
+# dotfiles
+alias dotfiles="cd ~/dotfiles"
+
 # ls aliases
 # alias ll='ls -alF'
 # alias la='ls -A'
@@ -102,7 +105,7 @@ alias ll='eza -lha'     # Long listing, human-readable, almost all
 alias la='eza -a'       # Almost all files, excluding . and ..
 alias l='eza -F'        # Column format, classify (good for quick check)
 
-# cat aliases
+# batcat aliases
 alias bat="batcat"
 alias cat="bat"
 
@@ -131,5 +134,3 @@ export NVM_DIR="$HOME/.nvm"
 
 # Required for uv python manager
 . "$HOME/.local/bin/env"
-
-export PATH=$PATH:/home/feenix/.spicetify
