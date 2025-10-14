@@ -103,7 +103,8 @@ alias la='eza -a'       # Almost all files, excluding . and ..
 alias l='eza -F'        # Column format, classify (good for quick check)
 
 # cat aliases
-alias cat="batcat"
+alias bat="batcat"
+alias cat="bat"
 
 # neovim aliases
 alias vim='nvim'
