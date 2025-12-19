@@ -110,8 +110,7 @@ alias cat="bat"
 # neovim aliases
 alias vim='nvim'
 alias nvimconfig="cd ~/.config/nvim/ && vim"
-alias nvimupdate="~/bin/nvimupdate.sh" 
-alias nvimswap="~/bin/nvimswap.sh"
+alias nvimupdate="~/bin/nvim_update.sh" 
 
 # tmux Aliases
 alias tmuxconfig="vim ~/.config/tmux/tmux.conf"
@@ -132,3 +131,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Required for uv python manager
 . "$HOME/.local/bin/env"
+
+# asdf version manager for multiple languages
+export PATH="$HOME/.asdf/bin:$PATH"
+export PATH="$HOME/.asdf/shims:$PATH"
