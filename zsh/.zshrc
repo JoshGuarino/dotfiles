@@ -95,7 +95,7 @@ alias ohmyzsh="vim ~/.oh-my-zsh"
 alias dotfiles="cd ~/dotfiles"
 
 # eza aliases 
-alias eza='eza --icons'
+alias eza='eza --icons --color=always --group-directories-first'
 alias ls='eza'
 alias la='eza -a'
 alias l='eza -l'
@@ -120,11 +120,6 @@ export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 
 # gvm version manager for go
 [[ -s "/home/feenix/.gvm/scripts/gvm" ]] && source "/home/feenix/.gvm/scripts/gvm"
-
-# nvm version manager for nodejs
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # deno runtime
 . "/home/feenix/.deno/env"
