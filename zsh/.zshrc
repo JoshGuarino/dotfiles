@@ -118,9 +118,6 @@ alias tmuxconfig="vim ~/.config/tmux/tmux.conf"
 # add neovim to path
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 
-# gvm version manager for go
-[[ -s "/home/feenix/.gvm/scripts/gvm" ]] && source "/home/feenix/.gvm/scripts/gvm"
-
 # deno runtime
 . "/home/feenix/.deno/env"
 
