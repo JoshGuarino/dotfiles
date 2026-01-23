@@ -110,7 +110,7 @@ alias cat="bat"
 # neovim aliases
 alias vim='nvim'
 alias nvimconfig="cd ~/.config/nvim/ && vim"
-alias nvimupdate="~/bin/nvim_update.sh" 
+alias nvimupdate="~/scripts/nvim_update.sh" 
 
 # tmux Aliases
 alias tmuxconfig="vim ~/.config/tmux/tmux.conf"
