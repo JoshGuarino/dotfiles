@@ -127,3 +127,6 @@ export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 # asdf version manager for multiple languages
 export PATH="$HOME/.asdf/bin:$PATH"
 export PATH="$HOME/.asdf/shims:$PATH"
+
+# opencode
+export PATH=/home/feenix/.opencode/bin:$PATH
