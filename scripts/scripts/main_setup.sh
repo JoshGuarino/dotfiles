@@ -5,3 +5,6 @@ sh ~/scripts/setup_zsh.sh
 
 # Setup asdf
 sh ~/scripts/asdf_install.sh
+
+# Setup nvim
+sh ~/scripts/nvim_update.sh
