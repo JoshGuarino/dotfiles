@@ -118,9 +118,6 @@ alias tmuxconfig="vim ~/.config/tmux/tmux.conf"
 # add neovim to path
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 
-# deno runtime
-. "/home/feenix/.deno/env"
-
 # Required for uv python manager
 . "$HOME/.local/bin/env"
 
