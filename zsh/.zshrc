@@ -112,6 +112,9 @@ alias vim='nvim'
 alias nvimconfig="cd ~/.config/nvim/ && vim"
 alias nvimupdate="~/scripts/nvim_update.sh" 
 
+# fd-find aliases
+alias find="fdfind"
+
 # tmux Aliases
 alias tmuxconfig="vim ~/.config/tmux/tmux.conf"
 
