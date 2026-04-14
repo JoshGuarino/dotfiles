@@ -101,7 +101,9 @@ alias la='eza -a'
 alias l='eza -l'
 alias ll='eza -la'
 alias lf='eza -f'
+alias lfa='eza -fa'
 alias ld='eza -D'
+alias lda='eza -Da'
 
 # batcat aliases
 alias bat="batcat"
