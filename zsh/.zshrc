@@ -132,7 +132,3 @@ export PATH="$HOME/.asdf/shims:$PATH"
 
 # opencode
 export PATH=/home/feenix/.opencode/bin:$PATH
-
-
-# Added by Antigravity CLI installer
-export PATH="/home/feenix/.local/bin:$PATH"
